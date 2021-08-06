@@ -1,0 +1,6 @@
+[book]
+authors = ["MineBill"]
+language = "en"
+multilingual = false
+src = "src"
+title = "NoticeMe Documentation"
