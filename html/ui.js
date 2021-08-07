@@ -44,7 +44,7 @@ function AddNotification(message, options) {
     container.prepend(node);
     node.classList.add(`--${type}`);
 
-    if (useAudio) {
+    if (useAudio && audio.paused) {
         audio.setAttribute("src", `sounds/${type}.mp3`);
         audio.volume = 0.2;
         audio.currentTime = 0;

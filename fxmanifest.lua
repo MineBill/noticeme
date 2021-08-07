@@ -3,7 +3,7 @@ game "gta5"
 
 author "MineBill"
 description "A simple notification resource"
-version "v1.0-alpha"
+version "v1.0.1"
 
 ui_page "html/ui.html"
 
